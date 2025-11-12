@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36623.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamer Keuze Tekst-Game", "Kamer Keuze Tekst-Game.csproj", "{0B796324-1330-4042-A5DB-6BA2F81B18DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedaillesOpdrachten", "MedaillesOpdrachten.csproj", "{44792D26-533C-4AFE-B597-78471A1F827E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B796324-1330-4042-A5DB-6BA2F81B18DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B796324-1330-4042-A5DB-6BA2F81B18DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B796324-1330-4042-A5DB-6BA2F81B18DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B796324-1330-4042-A5DB-6BA2F81B18DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44792D26-533C-4AFE-B597-78471A1F827E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44792D26-533C-4AFE-B597-78471A1F827E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44792D26-533C-4AFE-B597-78471A1F827E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44792D26-533C-4AFE-B597-78471A1F827E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6024B1E3-4A5D-4636-BE53-645E01F12E7E}
+		SolutionGuid = {F3A88BE6-788F-4B95-A594-56803DEA92F7}
 	EndGlobalSection
 EndGlobal

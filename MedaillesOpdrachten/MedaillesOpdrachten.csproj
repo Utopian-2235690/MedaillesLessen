@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0B796324-1330-4042-A5DB-6BA2F81B18DD}</ProjectGuid>
+    <ProjectGuid>{44792D26-533C-4AFE-B597-78471A1F827E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Kamer_Keuze_Tekst_Game</RootNamespace>
-    <AssemblyName>Kamer Keuze Tekst-Game</AssemblyName>
+    <RootNamespace>MedaillesOpdrachten</RootNamespace>
+    <AssemblyName>MedaillesOpdrachten</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
