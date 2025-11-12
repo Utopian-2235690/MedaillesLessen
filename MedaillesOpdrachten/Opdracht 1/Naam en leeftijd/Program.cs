@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MedaillesOpdracht
+namespace Naam_en_leeftijd
 {
     internal class Program
     {

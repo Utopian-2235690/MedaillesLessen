@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B50A9D01-8F68-44D7-BBA5-5F09E274EFD0}</ProjectGuid>
+    <ProjectGuid>{254E1A97-0A62-4B08-BF14-A6F5A65731E7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MedaillesOpdracht</RootNamespace>
-    <AssemblyName>MedaillesOpdracht</AssemblyName>
+    <RootNamespace>Naam_en_leeftijd</RootNamespace>
+    <AssemblyName>Naam en leeftijd</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
