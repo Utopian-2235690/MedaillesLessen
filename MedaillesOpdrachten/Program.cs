@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,17 +11,16 @@ namespace MedaillesOpdrachten
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Voer jouw naam in:");
-            string naam = Console.ReadLine();
+            opdracht1 Opdracht1 = new opdracht1();
+            Opdracht1.opdracht();
 
-            Console.WriteLine("");
+            /*opdracht2 Opdracht2 = new opdracht2();
+            Opdracht2.opdracht();
 
-            Console.WriteLine("Voer jouw leeftijd in:");
-            string leeftijd = Console.ReadLine();
+            /*opdracht3 Opdracht3 = new opdracht3();
+            Opdracht3.opdracht();*/
 
-            Console.WriteLine("");
-
-            Console.WriteLine("Hoi " + naam + ", je bent " + leeftijd + " jaar oud!");
         }
+
     }
 }
