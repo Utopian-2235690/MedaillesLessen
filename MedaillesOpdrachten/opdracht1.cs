@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MedaillesOpdrachten
 {
-    internal class opdracht1
+    internal class Opdracht1
     {
-        public void opdracht()
+        public void Opdracht()
         {
             Console.WriteLine("Voer jouw naam in:");
             string naam = Console.ReadLine();

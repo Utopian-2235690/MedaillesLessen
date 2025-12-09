@@ -6,30 +6,30 @@ using System.Threading.Tasks;
 
 namespace MedaillesOpdrachten
 {
-    internal class opdracht2
+    internal class Opdracht2
     {
-        public void opdracht()
+        public void Opdracht()
         {
             Console.WriteLine("Je bent moe, ga naar bed.");
             Console.WriteLine("Je bent nu in de woonkamer, waar wil je naartoe gaan? (Mogelijkheden: gang, voortuin, keuken)");
             string woonkamer = Console.ReadLine();
             Console.WriteLine("");
 
-            if (woonkamer == "gang")
+            if (woonkamer.ToLower() == "gang")
             {
                 Console.WriteLine("Je bent nu in de gang, waar wil je naartoe gaan? (Mogelijkheden: achtertuin, trap, wc)");
                 string gang = Console.ReadLine();
                 Console.WriteLine("");
 
-                if (gang == "achtertuin")
+                if (gang.ToLower() == "achtertuin")
                 {
                     Console.WriteLine("Je bent nu in de achtertuin, je kan nergens meer naartoe. Je hebt verloren");
                 }
-                else if (gang == "wc")
+                else if (gang.ToLower() == "wc")
                 {
                     Console.WriteLine("Je bent nu in de wc, je kan nergens meer naartoe. Je hebt verloren");
                 }
-                else if (gang == "trap")
+                else if (gang.ToLower() == "trap")
                 {
                     Console.WriteLine("Je bent nu op de eerste verdieping, " + 
                         "waar wil je naartoe gaan? (Mogelijkheden: badkamer, slaapkamer, zolder)");
@@ -37,32 +37,32 @@ namespace MedaillesOpdrachten
                     string verdieping1 = Console.ReadLine();
                     Console.WriteLine("");
 
-                    if (verdieping1 == "badkamer")
+                    if (verdieping1.ToLower() == "badkamer")
                     {
                         Console.WriteLine("Je bent nu in de badkamer, je kan nergens meer naartoe. Je hebt verloren.");
                     }
-                    else if (verdieping1 == "zolder")
+                    else if (verdieping1.ToLower() == "zolder")
                     {
-                        Console.WriteLine("Je bent nu in de zokder, je kan nergens meer naartoe. Je hebt verloren.");
+                        Console.WriteLine("Je bent nu op zolder, je kan nergens meer naartoe. Je hebt verloren.");
                     }
-                    else if (verdieping1 == "slaapkamer")
+                    else if (verdieping1.ToLower() == "slaapkamer")
                     {
                         Console.WriteLine("Je bent nu in de slaapkamer, wil je naar bed gaan? (Mogelijkheden: slapen)");
                         string slaapkamer = Console.ReadLine();
                         Console.WriteLine("");
 
-                        if (slaapkamer == "slapen")
+                        if (slaapkamer.ToLower() == "slapen")
                         {
                             Console.WriteLine("Je bent nu aan het slapen. Je hebt gewonnen.");
                         }
                     }
                 }
             } 
-            else if (woonkamer == "voortuin")
+            else if (woonkamer.ToLower() == "voortuin")
             {
                 Console.WriteLine("Je bent nu buiten, je kan nergens meer naartoe. Je hebt verloren.");
             }
-            else if (woonkamer == "keuken")
+            else if (woonkamer.ToLower() == "keuken")
             {
                 Console.WriteLine("Je bent nu in de keuken, je kan nergens meer naartoe. Je hebt verloren");
 

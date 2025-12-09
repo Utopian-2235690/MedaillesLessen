@@ -43,11 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Loops.cs" />
+    <Compile Include="OefenConstruct.cs" />
+    <Compile Include="opdracht5.cs" />
+    <Compile Include="opdracht6.cs" />
+    <Compile Include="Opdracht8.cs" />
     <Compile Include="opdracht1.cs" />
     <Compile Include="opdracht2.cs" />
     <Compile Include="opdracht3.cs" />
-    <Compile Include="opdracht4.cs" />
+    <Compile Include="opdracht9.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

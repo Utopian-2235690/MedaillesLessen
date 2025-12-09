@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MedaillesOpdrachten
 {
-    internal class opdracht3
+    internal class Opdracht3
     {
-        public void opdracht()
+        public void Opdracht()
         {
             Console.WriteLine("Wat voor weer is het?");
             Console.WriteLine("Zonnig");
@@ -19,7 +19,7 @@ namespace MedaillesOpdrachten
             string weer = Console.ReadLine();
             Console.WriteLine("");
 
-            if (weer == "zonnig" || weer == "Zonnig")
+            if (weer.ToLower() == "zonnig")
             {
                 Console.WriteLine("Wat voor temperatuur is het?");
                 int temperatuur = Convert.ToInt32(Console.ReadLine());
@@ -34,7 +34,7 @@ namespace MedaillesOpdrachten
                     Console.WriteLine("Je hebt wel een jas nodig vandaag, het is best koud.");
                 }
             }
-            else if (weer == "regen" || weer == "Regen")
+            else if (weer.ToLower() == "regen")
             {
                 Console.WriteLine("Wat voor temperatuur is het?");
                 int temperatuur = Convert.ToInt32(Console.ReadLine());
@@ -49,7 +49,7 @@ namespace MedaillesOpdrachten
                     Console.WriteLine("Je hebt wel een jas nodig vandaag, het is best koud.");
                 }
             }
-            else if (weer == "bewolkt" || weer == "Bewolkt")
+            else if (weer.ToLower() == "bewolkt")
             {
                 Console.WriteLine("Wat voor temperatuur is het?");
                 int temperatuur = Convert.ToInt32(Console.ReadLine());
