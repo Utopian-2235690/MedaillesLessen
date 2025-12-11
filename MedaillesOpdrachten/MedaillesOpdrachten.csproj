@@ -46,7 +46,8 @@
     <Compile Include="OefenConstruct.cs" />
     <Compile Include="opdracht5.cs" />
     <Compile Include="opdracht6.cs" />
-    <Compile Include="Opdracht8.cs" />
+    <Compile Include="opdracht7.cs" />
+    <Compile Include="opdracht8.cs" />
     <Compile Include="opdracht1.cs" />
     <Compile Include="opdracht2.cs" />
     <Compile Include="opdracht3.cs" />

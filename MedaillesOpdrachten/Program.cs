@@ -45,11 +45,15 @@ namespace MedaillesOpdrachten
 
 
             Opdracht5 opdracht5 = new Opdracht5();
-            opdracht5.Opdracht();*/
+            opdracht5.Opdracht();
 
 
             Opdracht6 opdracht6 = new Opdracht6();
-            opdracht6.Opdracht();
+            opdracht6.Opdracht();*/
+
+
+            Opdracht7 opdracht7 = new Opdracht7();
+            opdracht7.Opdracht();
 
 
             /*Character karakter1 = new Character("Speler1", 5, 4);
