@@ -16,9 +16,7 @@ namespace MedaillesOpdrachten
             int maxGetal = 6;
             
             bool guessesLeft = true;
-            int guesses;
-            guesses = 0;
-
+            int guesses = 0;
             int answer;
             int number;
 

@@ -35,26 +35,27 @@ namespace MedaillesOpdrachten
             /*Opdracht1 opdracht1 = new Opdracht1();
             opdracht1.Opdracht();
 
-
             Opdracht2 opdracht2 = new Opdracht2();
             opdracht2.Opdracht();
 
-
             Opdracht3 opdracht3 = new Opdracht3();
-            opdracht3.Opdracht();
+            opdracht3.Opdracht();*/
 
+            Opdracht4 opdracht4 = new Opdracht4();
+            opdracht4.Opdracht();
 
-            Opdracht5 opdracht5 = new Opdracht5();
-            opdracht5.Opdracht();
+            /*Opdracht5 opdracht5 = new Opdracht5();
+            opdracht5.Opdracht();*/
 
-
-            Opdracht6 opdracht6 = new Opdracht6();
-            opdracht6.Opdracht();*/
-
+            /*Opdracht6 opdracht6 = new Opdracht6();
+            opdracht6.Opdracht();
 
             Opdracht7 opdracht7 = new Opdracht7();
-            opdracht7.Opdracht();
+            opdracht7.Opdracht();*/
 
+
+
+            /*Opdracht8*/
 
             /*Character karakter1 = new Character("Speler1", 5, 4);
             Character karakter2 = new Character("Speler2", 8, 1);
@@ -64,7 +65,9 @@ namespace MedaillesOpdrachten
             karakter3.ShowStats();
 
 
-            Weapon weapon1 = new Weapon("Gouden prikker", 10);
+            /*Opdracht9*/
+
+            /*Weapon weapon1 = new Weapon("Gouden prikker", 10);
             Weapon weapon2 = new Weapon("Speer", 15);
             Weapon weapon3 = new Weapon("Glock", 20);
             weapon1.ShowStats();

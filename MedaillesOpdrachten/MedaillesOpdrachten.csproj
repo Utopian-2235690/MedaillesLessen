@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OefenConstruct.cs" />
+    <Compile Include="opdracht4.cs" />
     <Compile Include="opdracht5.cs" />
     <Compile Include="opdracht6.cs" />
     <Compile Include="opdracht7.cs" />
