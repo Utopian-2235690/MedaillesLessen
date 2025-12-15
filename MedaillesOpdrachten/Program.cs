@@ -41,13 +41,13 @@ namespace MedaillesOpdrachten
             Opdracht3 opdracht3 = new Opdracht3();
             opdracht3.Opdracht();*/
 
-            Opdracht4 opdracht4 = new Opdracht4();
+            /*Opdracht4 opdracht4 = new Opdracht4();
             opdracht4.Opdracht();
 
-            /*Opdracht5 opdracht5 = new Opdracht5();
-            opdracht5.Opdracht();*/
+            Opdracht5 opdracht5 = new Opdracht5();
+            opdracht5.Opdracht();
 
-            /*Opdracht6 opdracht6 = new Opdracht6();
+            Opdracht6 opdracht6 = new Opdracht6();
             opdracht6.Opdracht();
 
             Opdracht7 opdracht7 = new Opdracht7();
