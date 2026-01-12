@@ -30,18 +30,30 @@ namespace MedaillesOpdrachten
             user1.Login();*/
 
 
+            /*List<Car> CarList = new List<Car>();
+            Car Car1 = new Car("Agila", "Opal", 5);
+            CarList.Add(Car1);
+
+            Car Car2 = new Car("Ibiza", "Seat", 5);
+            CarList.Add(Car2);
+
+            foreach (Car Car in CarList)
+            {
+                Car.PrintCarInfo();
+            }*/
+
 
 
             /*Opdracht1 opdracht1 = new Opdracht1();
-            opdracht1.Opdracht();
+            opdracht1.Opdracht();*/
 
-            Opdracht2 opdracht2 = new Opdracht2();
-            opdracht2.Opdracht();
+            /*Opdracht2 opdracht2 = new Opdracht2();
+            opdracht2.Opdracht();*/
 
-            Opdracht3 opdracht3 = new Opdracht3();
-            opdracht3.Opdracht();*/
+            /*Opdracht3 opdracht3 = new Opdracht3();
+            opdracht3.Opdracht();
 
-            /*Opdracht4 opdracht4 = new Opdracht4();
+            Opdracht4 opdracht4 = new Opdracht4();
             opdracht4.Opdracht();
 
             Opdracht5 opdracht5 = new Opdracht5();
@@ -54,34 +66,52 @@ namespace MedaillesOpdrachten
             opdracht7.Opdracht();*/
 
 
-
             /*Opdracht8*/
+            List<Character> CharacterList = new List<Character>();
 
-            /*Character karakter1 = new Character("Speler1", 5, 4);
+            Character karakter1 = new Character("Speler1", 5, 4);
+            CharacterList.Add(karakter1);
+
             Character karakter2 = new Character("Speler2", 8, 1);
+            CharacterList.Add(karakter2);
+
             Character karakter3 = new Character("Speler3", 6, 3);
-            karakter1.ShowStats();
-            karakter2.ShowStats();
-            karakter3.ShowStats();
+            CharacterList.Add(karakter3);
+
+            foreach (Character Character in CharacterList)
+            {
+                Character.ShowStats();
+            }
 
 
             /*Opdracht9*/
+            /*List<Weapon> WeaponList = new List<Weapon>();
 
-            /*Weapon weapon1 = new Weapon("Gouden prikker", 10);
-            Weapon weapon2 = new Weapon("Speer", 15);
-            Weapon weapon3 = new Weapon("Glock", 20);
-            weapon1.ShowStats();
-            weapon2.ShowStats();
-            weapon3.ShowStats();
+            Weapon weapon1 = new Weapon("Gouden prikker", 10, "Prikker");
+            WeaponList.Add(weapon1);
+
+            Weapon weapon2 = new Weapon("Speer", 15, "Speer");
+            WeaponList.Add(weapon2);
+
+            Weapon weapon3 = new Weapon("Glock", 20, "Geweer");
+            WeaponList.Add(weapon3);
+
+            foreach (Weapon Weapon in WeaponList)
+            {
+                Weapon.ShowStats();
+            }
+
             weapon1.UpgradeWeapon(5);
             weapon2.UpgradeWeapon(5);
             weapon3.UpgradeWeapon(5);
+
             Console.WriteLine("");
             Console.WriteLine("Wapens zijn geupgrade.");
-            weapon1.ShowStats();
-            weapon2.ShowStats();
-            weapon3.ShowStats();*/
 
+            foreach (Weapon Weapon in WeaponList)
+            {
+                Weapon.ShowStats();
+            }*/
         }
     }
 }

@@ -11,16 +11,18 @@ namespace MedaillesOpdrachten
 
         private string _Name;
         private int _Damage;
+        private string _Type;
 
-        public Weapon(string Name, int Damage)
+        public Weapon(string Name, int Damage, string Type)
         {
             _Name = Name;
             _Damage = Damage;
+            _Type = Type;
         }
 
         public void ShowStats()
         {
-            Console.WriteLine($"{_Name} doet {_Damage} damage.");
+            Console.WriteLine($"{_Name} doet {_Damage} damage en het type wapen is een {_Type}.");
         }
 
         public void UpgradeWeapon(int DamageToAdd)

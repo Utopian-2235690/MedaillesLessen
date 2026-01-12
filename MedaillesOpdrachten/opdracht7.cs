@@ -15,7 +15,6 @@ namespace MedaillesOpdrachten
             int maxGetal = 7;
 
             int number = 0;
-            int value = 0;
 
             int count1 = 0;
             int count2 = 0;

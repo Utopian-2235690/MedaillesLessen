@@ -18,6 +18,15 @@ namespace MedaillesOpdrachten
             Console.WriteLine("");
 
 
+            int number = 5;
+
+            for (int i = 1; i < 11; i++)
+            {
+                Console.WriteLine(number * i);
+            }
+
+            Console.WriteLine("");
+
             Console.WriteLine("Voer een tafel in.");
             int tafel = Convert.ToInt32(Console.ReadLine());
 
